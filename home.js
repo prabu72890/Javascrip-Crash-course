@@ -190,3 +190,18 @@ console.log('fruits = ', fruits.slice(1,3),'// including but not upto');
 
 console.log('fruits = ', fruits.reverse(),'// the oder as been flipt');
 
+console.log('fruits = ', fruits.sort(),'// sorting by alphabetically a-z');
+
+// the number sorting
+
+let someNumber = [5,22,33,14,2,5,6,22,44,153,541,5,6,8,42,9,6,7,214,56,54,23,27,1];
+console.log('sort', someNumber.sort(function(a,b){return a-b}),'//assending');
+console.log('sort', someNumber.sort(function(a,b){return b-a}),'//dssending');
+
+// adding items in the array from with loop
+
+let emptyArray = new Array();
+for (let num = 0; num <= 10; num++) {
+        emptyArray.push(num);
+}
+console.log(emptyArray);
