@@ -14,41 +14,41 @@ console.log('hello da');
 
 /////////////////////////////////////////////////////
 
-// console.log(5*10);
-// console.log(5/10);
-// console.log(5+10);
-// console.log(5-10);
+console.log(5*10);
+console.log(5/10);
+console.log(5+10);
+console.log(5-10);
 
-// var num2 = 500;
-// num2= num2+124;
-// console.log( num2);   
+var num2 = 500;
+num2= num2+124;
+console.log( num2);   
 
-// var num1=200;
-// // increment by 1
-// num1++;
-// console.log(num1);
-// // Decrement by 1
-// num1--;
-// console.log(num1);
+var num1=200;
+// increment by 1
+num1++;
+console.log(num1);
+// Decrement by 1
+num1--;
+console.log(num1);
 
-// // increment or decrement by any number
-// num1+=10;
-// console.log(num1);
+// increment or decrement by any number
+num1+=10;
+console.log(num1);
 
-// num1-=54;
-// console.log(num1);
+num1-=54;
+console.log(num1);
 
-// // Divide /, Multiply *, Remainder %,
-// var num4 = 10;
+// Divide /, Multiply *, Remainder %,
+var num4 = 10;
 
-// num3 = num4 % 6;
-// console.log(num3);
+num3 = num4 % 6;
+console.log(num3);
 
-// num3 = num4 * 5;
-// console.log(num3);
+num3 = num4 * 5;
+console.log(num3);
 
-// num3 = num4 / 5;
-// console.log(num3);
+num3 = num4 / 5;
+console.log(num3);
 
 /////////////////////////////////////////////////////////////
 
@@ -181,14 +181,12 @@ console.log('fruits = ', fruits);
 console.log('fruits.shift() =>',fruits.shift(),'// removing firts element of the array');
 console.log('fruits = ', fruits);
 
-console.log('fruits.unshift() =>',fruits.unshift('kiwi'),'// removing firts element of the array');
+console.log('fruits.unshift() =>',fruits.unshift('kiwi'),'// Adding firts element of the array');
 console.log('fruits = ', fruits);
 
+console.log('fruits = ', fruits.concat(athorWay),'// concating tow arrey togather');
 
+console.log('fruits = ', fruits.slice(1,3),'// including but not upto');
 
-
-
-
-
-
+console.log('fruits = ', fruits.reverse(),'// the oder as been flipt');
 
