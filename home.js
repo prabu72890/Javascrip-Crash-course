@@ -118,6 +118,7 @@ console.log(num3);
 // let undefined;
 // let valueNull = null;
 
+/*
 
 // strings
 
@@ -204,4 +205,73 @@ let emptyArray = new Array();
 for (let num = 0; num <= 10; num++) {
         emptyArray.push(num);
 }
-console.log(emptyArray);
+console.log(emptyArray); 
+
+
+
+// objects in javascript
+
+// let student = { first:'rafeh', last:'Qazi'};
+// console.log(student.first);
+
+// right formating
+
+let student = {
+        first:'rafeh',
+        last: ' Qazi',
+        age: 25,
+        Height:170,
+};
+console.log(student.first);
+student.first='notRafeh'; // changing value
+console.log(student.first);
+
+console.log(student.age);
+student.age++; //icrimenting with 1
+console.log(student.age);
+student.age+=20; //icrimenting with 20
+console.log(student.age);
+
+let student3 = {
+        first:'rafeh',
+        last: 'Qazi',
+        age: 25,
+        Height:170,
+        student3Info: function () {
+                return this.first+' '+this.last
+        },
+};
+console.log(student3.student3Info());
+
+ console.log(student3['Height']);
+
+*/
+
+// if else conditions and switch statements
+
+// var age = prompt('Whtat is your age ?');
+
+// if ((age>=18)&&(age<=35)) {
+//         Status='Target demo';
+//         console.log(Status);
+// } else {
+//         Status='not my audiance';
+//         console.log(Status);
+// };
+
+switch (5) {
+        case 0:
+               text='weekend'; 
+                break;
+        case 5:
+               text='weekend'; 
+                break;
+        case 6:
+               text='weekend'; 
+                break;
+
+        default:
+               text='week day'; 
+                break;
+};
+console.log(text);
