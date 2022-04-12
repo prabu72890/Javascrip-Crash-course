@@ -107,7 +107,7 @@ console.log(num3);
 
 // for (let num = 0; num <=100; num++) {
 //     console.log(num);
-    
+
 // }
 
 // let number = 14;
@@ -243,7 +243,7 @@ let student3 = {
 };
 console.log(student3.student3Info());
 
- console.log(student3['Height']);
+console.log(student3['Height']);
 
 */
 
